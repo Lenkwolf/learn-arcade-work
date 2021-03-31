@@ -40,23 +40,43 @@ arcade.draw_lines(((50,300),
 ),
                     arcade.csscolor.BLUE)
 arcade.draw_lines(((400,300),
-    	            (475,0),
+    	            (500,0),
 ),
                     arcade.csscolor.BLUE)
 arcade.draw_lines(((450,300),
-    	            (575,0),
+    	            (625,0),
 ),
                     arcade.csscolor.BLUE)
 arcade.draw_lines(((500,300),
-    	            (675,0),
+    	            (750,0),
 ),
                     arcade.csscolor.BLUE)
 arcade.draw_lines(((550,300),
-    	            (775,0),
+    	            (850,0),
 ),
                     arcade.csscolor.BLUE)
 arcade.draw_lines(((300,300),
     	            (300,0),
+),
+                    arcade.csscolor.BLUE)
+arcade.draw_lines(((0,280),
+    	            (600,280),
+),
+                    arcade.csscolor.BLUE)
+arcade.draw_lines(((0,235),
+    	            (600,235),
+),
+                    arcade.csscolor.BLUE)
+arcade.draw_lines(((0,175),
+    	            (600,175),
+),
+                    arcade.csscolor.BLUE)
+arcade.draw_lines(((0,100),
+    	            (600,100),
+),
+                    arcade.csscolor.BLUE)
+arcade.draw_lines(((0,25),
+    	            (600,25),
 ),
                     arcade.csscolor.BLUE)
 
