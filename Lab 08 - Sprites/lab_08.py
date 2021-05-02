@@ -12,4 +12,4 @@ SCREEN_HEIGHT = 600
 class Game(arcade.window):
 
     def __init__(self):
-        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT)
+        super().__init__(SCREEN_WIDTH, SCREEN_HEIGHT, 'shprite example')
