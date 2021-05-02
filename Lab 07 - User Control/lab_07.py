@@ -2,7 +2,8 @@ import arcade
 
 SCREEN_WIDTH = 1000
 SCREEN_HEIGHT = 1000
-MOVEMENT_SPEED = 0.1
+MOVEMENT_SPEED = 6
+
 
 class ball:
     
@@ -33,6 +34,7 @@ class ball:
 
         if self.position_y > SCREEN_HEIGHT - self.radius:
             self.position_y = SCREEN_HEIGHT - self.radius
+    def update(self):
 
 class MyGame(arcade.Window):
 
@@ -60,8 +62,6 @@ class MyGame(arcade.Window):
             self.ball.change_x = MOVEMENT_SPEED 
         elif key == arcade.key.UP:
             self.ball.change_y = MOVEMENT_SPEED 
-        elif key == arcade.key.DOWN:
-            self.ball.change_y = -MOVEMENT_SPEED 
 
     def on_key_release(self, key, modifiers):
         if key == arcade.key.LEFT or key == arcade.key.RIGHT:
