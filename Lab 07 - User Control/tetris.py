@@ -262,7 +262,8 @@ class MyGame(arcade.Window):
         arcade.start_render()
         self.board_sprite_list.draw()
         self.draw_grid(self.tetromino, self.tetromino_x, self.tetromino_y)
-
+        output = f"Tertis"
+        arcade.draw_text(output, 120, 600, arcade.color.BLACK, 20)
 
 def main():
     """ Create the game window, setup, run """
